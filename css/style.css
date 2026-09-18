@@ -187,7 +187,7 @@ h1, h2, h3, h4 {
      Swap for a real photo shoot at final asset handoff if desired. */
   background-image:
     linear-gradient(180deg, rgba(18,18,18,0.90) 0%, rgba(18,18,18,0.95) 55%, var(--bg) 100%),
-    url("../images/pastry-pattern.svg");
+    url("../images/images/pastry-pattern.svg");
   background-size: cover, 340px 340px;
   background-position: center, center;
   background-repeat: no-repeat, repeat;
