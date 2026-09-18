@@ -118,3 +118,22 @@ The_Elevated_Collective/
 ├── Index.html                 # Homepage
 ├── Products.html              # Products & services catalog
 └── README.md                  # Project documentation & changelog
+
+---
+
+## 📱 Responsive Testing & Visual Evidence
+
+| Desktop View (Hero) | Desktop View (Product Grid) | Mobile Device View |
+| :---: | :---: | :---: |
+| ![Desktop Hero View](images/screenshots/desktop-hero.png) | ![Desktop Products View](images/screenshots/desktop-products.png) | ![Mobile View](images/screenshots/mobile-view.jpeg) |
+| *Full desktop hero layout showing navigation & typography.* | *3-column CSS Grid displaying product card components.* | *Responsive mobile media query with stacked layout & hamburger nav.* |
+
+---
+
+## 📚 References
+
+Google (2026) *Gemini* [Large language model]. Available at: <https://gemini.google.com> (Accessed: 18 September 2026).
+
+Google (2026) *Response to prompts regarding luxury bakery branding and product imagery for "Elevated Collective"*, 18 September. Available at: <https://gemini.google.com> (Accessed: 18 September 2026).
+
+The Cape Bakery (2026) *The Cape Bakery: Artisanal Bakes and Confectionery*. Available at: <https://www.thecapebakery.co.za/> (Accessed: 18 September 2026).
