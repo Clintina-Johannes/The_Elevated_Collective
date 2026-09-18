@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -379,4 +380,383 @@
   document.getElementById('inv-subtotal-row') && document.addEventListener('DOMContentLoaded', () => {});
 </script>
 </body>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Products & Membership — The Elevated Collective</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav">
+    <a href="index.html" class="logo"><span class="dot"></span>THE ELEVATED COLLECTIVE</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="products.html" class="active">Products</a></li>
+      <li><a href="enquiry.html">Enquiries</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="nav-cta">
+      <a href="#checkout-anchor" class="btn btn-primary">Join the Club</a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <section class="hero" style="padding-bottom: 50px;">
+    <div class="container">
+      <p class="eyebrow">Single Treats &amp; Membership</p>
+      <h1 style="max-width: 22ch;">Order once, or let us <span class="accent">sort you out monthly.</span></h1>
+      <p class="lead">Browse single items below, or scroll down to join the Members Club and check out in three simple steps.</p>
+    </div>
+  </section>
+
+  <!-- Single item catalog -->
+  <section style="padding-top: 0;">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">Catalog</p>
+        <h2>Single Items</h2>
+      </div>
+
+      <div class="product-tabs">
+        <button class="tab-btn active" data-filter="all">All</button>
+        <button class="tab-btn" data-filter="chocolate">Chocolate</button>
+        <button class="tab-btn" data-filter="macaron">Macarons</button>
+        <button class="tab-btn" data-filter="pastry">Pastry</button>
+      </div>
+
+      <div class="product-grid">
+        <article class="product-card" data-category="chocolate">
+          <div class="product-media" style="background: linear-gradient(135deg, #2D6A4F, #163627);">
+            <span class="badge-tag">Bestseller</span>
+            <div class="placeholder-art">Photo ref:<br>unsplash.com/s/photos/dark-chocolate-truffle</div>
+          </div>
+          <div class="product-body">
+            <h3>Midnight Truffle Box</h3>
+            <p class="desc">12-piece dark chocolate truffles, sea salt caramel centres.</p>
+            <div class="product-footer">
+              <span class="price">R185</span>
+              <button class="btn btn-ghost" onclick="showToast('Added to cart (demo)')">Add</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="macaron">
+          <div class="product-media" style="background: linear-gradient(135deg, #BA181B, #5c0c0e);">
+            <div class="placeholder-art">Photo ref:<br>unsplash.com/s/photos/gourmet-macarons</div>
+          </div>
+          <div class="product-body">
+            <h3>Ruby Macaron Set</h3>
+            <p class="desc">12 hand-piped macarons, rotating seasonal flavours.</p>
+            <div class="product-footer">
+              <span class="price">R220</span>
+              <button class="btn btn-ghost" onclick="showToast('Added to cart (demo)')">Add</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="pastry">
+          <div class="product-media" style="background: linear-gradient(135deg, #3E9970, #121212);">
+            <div class="placeholder-art">Photo ref:<br>unsplash.com/s/photos/artisan-pastry-box</div>
+          </div>
+          <div class="product-body">
+            <h3>Golden Croissant Duo</h3>
+            <p class="desc">Butter croissants, almond and dark choc filling.</p>
+            <div class="product-footer">
+              <span class="price">R95</span>
+              <button class="btn btn-ghost" onclick="showToast('Added to cart (demo)')">Add</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="chocolate">
+          <div class="product-media" style="background: linear-gradient(135deg, #163627, #BA181B);">
+            <div class="placeholder-art">Photo ref:<br>unsplash.com/s/photos/chocolate-bark</div>
+          </div>
+          <div class="product-body">
+            <h3>Ruby Cacao Bark</h3>
+            <p class="desc">Hand-broken bark with pistachio and rose petal.</p>
+            <div class="product-footer">
+              <span class="price">R110</span>
+              <button class="btn btn-ghost" onclick="showToast('Added to cart (demo)')">Add</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="macaron">
+          <div class="product-media" style="background: linear-gradient(135deg, #2D6A4F, #BA181B);">
+            <div class="placeholder-art">Photo ref:<br>unsplash.com/s/photos/pastel-macarons</div>
+          </div>
+          <div class="product-body">
+            <h3>Pastel Six-Pack</h3>
+            <p class="desc">A lighter set — perfect for gifting or sampling.</p>
+            <div class="product-footer">
+              <span class="price">R125</span>
+              <button class="btn btn-ghost" onclick="showToast('Added to cart (demo)')">Add</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="pastry">
+          <div class="product-media" style="background: linear-gradient(135deg, #121212, #2D6A4F);">
+            <div class="placeholder-art">Photo ref:<br>unsplash.com/s/photos/danish-pastry</div>
+          </div>
+          <div class="product-body">
+            <h3>Sunday Danish Set</h3>
+            <p class="desc">Four seasonal Danishes, baked fresh each morning.</p>
+            <div class="product-footer">
+              <span class="price">R140</span>
+              <button class="btn btn-ghost" onclick="showToast('Added to cart (demo)')">Add</button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Membership tiers -->
+  <section>
+    <div class="container">
+      <div class="section-head text-center" style="margin-left:auto; margin-right:auto;">
+        <p class="eyebrow" style="justify-content:center;">Members Club</p>
+        <h2>Pick your tier</h2>
+        <p>Cancel anytime. Every tier includes free delivery and early access to seasonal drops.</p>
+      </div>
+
+      <div class="tier-grid">
+        <div class="tier-card">
+          <div class="tier-seal">STARTER</div>
+          <h3>Starter Box</h3>
+          <div class="tier-price">R250<span>/mo</span></div>
+          <ul class="tier-list">
+            <li>1 curated box monthly</li>
+            <li>Standard flavour rotation</li>
+            <li>Free delivery</li>
+          </ul>
+          <button class="btn btn-secondary btn-block" data-select-tier="starter">Select Starter</button>
+        </div>
+
+        <div class="tier-card featured">
+          <span class="badge-tag" style="position:static; display:inline-flex; margin-bottom:14px;">Most Popular</span>
+          <div class="tier-seal">SIGNATURE</div>
+          <h3>Signature Box</h3>
+          <div class="tier-price">R450<span>/mo</span></div>
+          <ul class="tier-list">
+            <li>Full curated selection</li>
+            <li>Early access to drops</li>
+            <li>Free delivery + priority support</li>
+          </ul>
+          <button class="btn btn-primary btn-block" data-select-tier="signature">Select Signature</button>
+        </div>
+
+        <div class="tier-card">
+          <div class="tier-seal">ELEVATED</div>
+          <h3>Elevated Box</h3>
+          <div class="tier-price">R720<span>/mo</span></div>
+          <ul class="tier-list">
+            <li>Double-size curated box</li>
+            <li>Exclusive limited flavours</li>
+            <li>Free delivery + gift add-ons</li>
+          </ul>
+          <button class="btn btn-secondary btn-block" data-select-tier="elevated">Select Elevated</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Checkout / sign-up form -->
+  <section id="checkout-anchor">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">Step 1 of 1</p>
+        <h2>Complete your membership sign-up</h2>
+        <p>Enter your details below — your invoice generates instantly after submission.</p>
+      </div>
+
+      <div class="form-shell">
+        <form id="checkout-form" novalidate>
+
+          <fieldset>
+            <legend>Your details</legend>
+            <div class="form-row">
+              <div class="field">
+                <label for="fullname">Full name</label>
+                <input type="text" id="fullname" name="fullname" required>
+                <span class="error-msg">Please enter your full name.</span>
+              </div>
+              <div class="field">
+                <label for="email">Email address</label>
+                <input type="email" id="email" name="email" required>
+                <span class="error-msg">Please enter a valid email address.</span>
+              </div>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>Delivery address</legend>
+            <div class="field">
+              <label for="address">Street address</label>
+              <input type="text" id="address" name="address" required>
+              <span class="error-msg">Please enter your street address.</span>
+            </div>
+            <div class="form-row">
+              <div class="field">
+                <label for="city">City</label>
+                <input type="text" id="city" name="city" required>
+                <span class="error-msg">Please enter your city.</span>
+              </div>
+              <div class="field">
+                <label for="postcode">Postal code</label>
+                <input type="text" id="postcode" name="postcode" required>
+                <span class="error-msg">Please enter your postal code.</span>
+              </div>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>Membership tier</legend>
+            <div class="field">
+              <label for="tier">Selected tier</label>
+              <select id="tier" name="tier" required>
+                <option value="starter">Starter Box — R250/mo</option>
+                <option value="signature" selected>Signature Box — R450/mo</option>
+                <option value="elevated">Elevated Box — R720/mo</option>
+              </select>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>Payment — PayGate (simulated)</legend>
+            <p class="hint" style="margin-bottom:14px;">This is a static student-project simulation. No real payment gateway is connected and no card data is transmitted or stored.</p>
+            <div class="field">
+              <label for="cardname">Name on card</label>
+              <input type="text" id="cardname" name="cardname" required>
+              <span class="error-msg">Please enter the name on your card.</span>
+            </div>
+            <div class="field">
+              <label for="card">Card number</label>
+              <input type="text" id="card" name="card" data-type="card" placeholder="0000 0000 0000 0000" required>
+              <span class="error-msg">Please enter a valid card number.</span>
+            </div>
+            <div class="form-row">
+              <div class="field">
+                <label for="expiry">Expiry (MM/YY)</label>
+                <input type="text" id="expiry" name="expiry" data-type="expiry" placeholder="MM/YY" required>
+                <span class="error-msg">Please enter a valid expiry date.</span>
+              </div>
+              <div class="field">
+                <label for="cvv">CVV</label>
+                <input type="text" id="cvv" name="cvv" data-type="cvv" placeholder="123" required>
+                <span class="error-msg">Please enter a valid CVV.</span>
+              </div>
+            </div>
+          </fieldset>
+
+          <button type="submit" class="btn btn-primary btn-block">Confirm &amp; Generate Invoice</button>
+        </form>
+      </div>
+
+      <!-- Static invoice, populated via JS on submit -->
+      <div class="invoice-box mt-40" id="invoice-box">
+        <div class="invoice-head">
+          <div>
+            <div class="logo" style="margin-bottom:10px;"><span class="dot"></span>THE ELEVATED COLLECTIVE</div>
+            <p style="font-size:0.85rem; color:var(--gray-dim);">Invoice Ref: <strong id="inv-ref" style="color:var(--white);"></strong></p>
+            <p style="font-size:0.85rem; color:var(--gray-dim);">Date: <span id="inv-date"></span></p>
+          </div>
+          <span class="invoice-status"><span class="dot-pulse"></span>Payment Simulated</span>
+        </div>
+
+        <div class="two-col" style="margin-bottom:24px;">
+          <div>
+            <h4 style="font-size:0.78rem; letter-spacing:0.08em; text-transform:uppercase; color:var(--gray-dim); margin-bottom:10px;">Billed To</h4>
+            <p id="inv-name" style="color:var(--white); font-weight:600;"></p>
+            <p id="inv-email" style="font-size:0.88rem;"></p>
+            <p id="inv-address" style="font-size:0.88rem;"></p>
+          </div>
+          <div>
+            <h4 style="font-size:0.78rem; letter-spacing:0.08em; text-transform:uppercase; color:var(--gray-dim); margin-bottom:10px;">Payment Method</h4>
+            <p style="font-size:0.88rem;">Card ending: <span id="inv-card"></span></p>
+            <p style="font-size:0.88rem;">Processor: PayGate (simulated)</p>
+          </div>
+        </div>
+
+        <table class="invoice-table">
+          <thead>
+            <tr><th>Description</th><th>Billing</th><th style="text-align:right;">Amount</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td id="inv-tier"></td>
+              <td>Monthly</td>
+              <td style="text-align:right;" id="inv-subtotal-row"></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div class="invoice-totals">
+          <div class="row"><span>Subtotal</span><span id="inv-subtotal"></span></div>
+          <div class="row"><span>VAT (15%)</span><span id="inv-vat"></span></div>
+          <div class="row total"><span>Total</span><span id="inv-total"></span></div>
+        </div>
+
+        <div class="paygate-strip">
+          <span class="paygate-logo">Pay<span>Gate</span></span>
+          <span>Transaction simulated for demonstration purposes only — no live payment processed.</span>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="logo" style="margin-bottom:14px;"><span class="dot"></span>THE ELEVATED COLLECTIVE</div>
+        <p style="max-width:32ch; font-size:0.88rem;">Boutique artisanal confectionery and curated membership perks, since 2024.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="enquiry.html">Enquiries</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Support</h4>
+        <ul>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="enquiry.html">Bulk Orders</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 The Elevated Collective. All rights reserved.</span>
+      <span>Cape Town, South Africa</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+<script>
+  document.getElementById('inv-subtotal-row') && document.addEventListener('DOMContentLoaded', () => {});
+</script>
+</body>
+>>>>>>> 4cb9b90118552eaef5b7333bfc35e44510a90352
 </html>
