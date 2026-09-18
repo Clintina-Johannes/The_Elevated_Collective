@@ -63,3 +63,58 @@ Young adults and modern consumers aged 18–35 who value convenience, affordable
 *   Visual Studio Code (IDE)
 *   Git (Version Control)
 *   GitHub Repository
+
+
+PART 2:
+## 🚀 Live Website
+View the deployed site on GitHub Pages:  
+👉 [https://clintina-johannes.github.io/The_Elevated_Collective/](https://clintina-johannes.github.io/The_Elevated_Collective/)
+
+---
+
+## 📋 Part 2 Updates & Implementation Changelog
+
+### 1. Base Styling & Architecture
+- **CSS Reset:** Implemented a universal box-sizing reset (`*`, `::before`, `::after`) and cleared default browser margins/paddings.
+- **Brand Theme & Variables:** Set up `:root` CSS variables for the dark theme color palette (`#121212` dark background, `#2D6A4F` primary green, `#BA181B` accent red) and typography.
+- **Typography:** Integrated Google Fonts (**Montserrat** for headings, **Inter** for body text) with scalable `rem` sizing and standardized line heights.
+
+### 2. Layout & Flexbox/Grid Systems
+- **Header & Navigation:** Structured main navigation with CSS Flexbox for alignment and spacing.
+- **Card Grids:** Configured multi-column card displays using CSS Grid across the main content sections.
+- **Page Assembly:** Linked `css/style.css` and added mobile viewport meta tags to all HTML pages (`index.html`, `About.html`, `Contact.html`, `Enquiry.html`, `Products.html`).
+
+### 3. Interactive Pseudo-Classes
+- Added `:hover` visual elevation effects and color shifts to navigation links, cards, and buttons.
+- Configured `:active` color changes on buttons to provide clear click/tap feedback.
+- Applied visible `:focus` outline rings to inputs and buttons for accessibility compliance.
+
+### 4. Responsive Breakpoints (`@media` Queries)
+- **Desktop (default):** 3-column grid layout with horizontal navigation bar.
+- **Tablet (`max-width: 1024px`):** Scaled down root font size and shifted card grids from 3 columns to 2 columns.
+- **Mobile (`max-width: 768px`):** Stacked navigation items vertically, reduced main content margins, and simplified card layouts to a single column.
+
+The_Elevated_Collective/
+│
+├── css/
+│   └── style.css              # Main stylesheet (reset, variables, typography, layouts)
+│
+├── images/
+│   └── images/                # Image asset directory
+│       ├── products/          # Product image assets
+│       │   ├── goldencroissantd...
+│       │   ├── macaron.seasonal...
+│       │   ├── midnight.truffle.jpg
+│       │   ├── pastelsixpack.jpg
+│       │   ├── RubyCacaoBark.jpg
+│       │   ├── rubymaracronset.j...
+│       │   └── SundayDanishSet....
+│       ├── pastry-pattern.s...# Graphic vector assets
+│       └── wordmark-past...   # Brand SVG graphics
+│
+├── About.html                 # About Us page
+├── Contact.html               # Contact page
+├── Enquiry.html               # Enquiry form page
+├── Index.html                 # Homepage
+├── Products.html              # Products & services catalog
+└── README.md                  # Project documentation & changelog
