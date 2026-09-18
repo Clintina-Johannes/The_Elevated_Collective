@@ -373,7 +373,7 @@ section { padding: 88px 0; }
   transition: transform 0.3s ease, border-color 0.3s ease;
 }
 .tier-card:hover { transform: translateY(-6px) rotate(-0.4deg); }
-.tier-card.featured { border-color: var(--red); background: linear-gradient(180deg, rgba(186,24,27,0.08), var(--bg-card) 40%); }
+.tier-card.selected { border-color: var(--red); background: linear-gradient(180deg, rgba(186,24,27,0.08), var(--bg-card) 40%); }
 .tier-seal {
   width: 74px; height: 74px; margin: 0 auto 18px;
   border-radius: 50%;
