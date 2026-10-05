@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://clintina-johannes.github.io/The_Elevated_Collective/sitemap.xml

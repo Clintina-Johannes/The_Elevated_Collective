@@ -130,6 +130,26 @@ The_Elevated_Collective/
 
 ---
 
+## 📋 Part 3 Updates & Implementation Changelog
+
+### 1. Feedback Implementation & Code Corrections
+- Resolved outstanding formatting issues and Git merge conflict markers across all HTML files based on Part 2 feedback. 
+
+### 2. JavaScript Enhancements & Interactivity
+- **Dynamic Content Filtering:** Implemented custom JavaScript DOM manipulation on the `products.html` page to filter catalog items dynamically by category.
+- **Interactive Map:** Integrated Leaflet.js to create a functional, location-based interactive map on `contact.html`, plotting the Kloof Street and Sea Point store coordinates.
+
+### 3. Form Functionality & Validation
+- **Structured Form Elements:** Finalized distinct forms on `enquiry.html` (for services/products and event bookings) and `contact.html` (for general organization messages).
+- **Client-Side Validation:** Developed a custom JavaScript validation script (`js/main.js`) to evaluate user inputs (checking for required fields and valid email formats) before allowing submission, triggering error messages for invalid data.
+- **Simulated AJAX Submission:** Implemented asynchronous form submission simulation using JavaScript `setTimeout`, overriding the default page reload to provide a seamless user experience and success message upon successful validation.
+
+### 4. Search Engine Optimization (SEO)
+- **On-Page SEO:** Injected page-specific, keyword-rich `<title>` tags and `<meta name="description">` tags into the `<head>` of every HTML document to improve search visibility.
+- **Robots & Sitemap:** Generated a `robots.txt` file to instruct search engine crawlers and a `sitemap.xml` file to map the structure of the deployed website.
+
+---
+
 ## 📚 References
 
 Google (2026) *Gemini* [Large language model]. Available at: <https://gemini.google.com> (Accessed: 18 September 2026).
