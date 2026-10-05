@@ -4,6 +4,16 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Products & Membership — The Elevated Collective</title>
+
+<!-- SEO Meta Tags -->
+<meta name="description" content="Browse our catalog of artisanal chocolates, macarons, and pastries, or join The Elevated Collective Members Club for monthly curated boxes.">
+<meta name="keywords" content="artisanal chocolates, macarons, pastry delivery, members club, sweet treats Cape Town, boutique bakery">
+
+<!-- Google Fonts for Montserrat & Inter -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -60,7 +70,7 @@
             <p class="desc">12-piece dark chocolate truffles, sea salt caramel centres.</p>
             <div class="product-footer">
               <span class="price">R185</span>
-              <button class="btn btn-ghost" onclick="showToast('Added to cart (demo)')">Add</button>
+              <button class="btn btn-ghost" onclick="alert('Added to cart (demo)')">Add</button>
             </div>
           </div>
         </article>
@@ -74,7 +84,7 @@
             <p class="desc">12 hand-piped macarons, rotating seasonal flavours.</p>
             <div class="product-footer">
               <span class="price">R220</span>
-              <button class="btn btn-ghost" onclick="showToast('Added to cart (demo)')">Add</button>
+              <button class="btn btn-ghost" onclick="alert('Added to cart (demo)')">Add</button>
             </div>
           </div>
         </article>
@@ -88,7 +98,7 @@
             <p class="desc">Butter croissants, almond and dark choc filling.</p>
             <div class="product-footer">
               <span class="price">R95</span>
-              <button class="btn btn-ghost" onclick="showToast('Added to cart (demo)')">Add</button>
+              <button class="btn btn-ghost" onclick="alert('Added to cart (demo)')">Add</button>
             </div>
           </div>
         </article>
@@ -102,7 +112,7 @@
             <p class="desc">Hand-broken bark with pistachio and rose petal.</p>
             <div class="product-footer">
               <span class="price">R110</span>
-              <button class="btn btn-ghost" onclick="showToast('Added to cart (demo)')">Add</button>
+              <button class="btn btn-ghost" onclick="alert('Added to cart (demo)')">Add</button>
             </div>
           </div>
         </article>
@@ -116,7 +126,7 @@
             <p class="desc">A lighter set — perfect for gifting or sampling.</p>
             <div class="product-footer">
               <span class="price">R125</span>
-              <button class="btn btn-ghost" onclick="showToast('Added to cart (demo)')">Add</button>
+              <button class="btn btn-ghost" onclick="alert('Added to cart (demo)')">Add</button>
             </div>
           </div>
         </article>
@@ -130,7 +140,7 @@
             <p class="desc">Four seasonal Danishes, baked fresh each morning.</p>
             <div class="product-footer">
               <span class="price">R140</span>
-              <button class="btn btn-ghost" onclick="showToast('Added to cart (demo)')">Add</button>
+              <button class="btn btn-ghost" onclick="alert('Added to cart (demo)')">Add</button>
             </div>
           </div>
         </article>
@@ -199,7 +209,6 @@
 
       <div class="form-shell">
         <form id="checkout-form" novalidate>
-
           <fieldset>
             <legend>Your details</legend>
             <div class="form-row">
@@ -390,5 +399,6 @@
     });
   });
 </script>
+<script src="js/main.js"></script>
 </body>
 </html>
